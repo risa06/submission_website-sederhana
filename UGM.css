@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=EB+Garamond&family=Open+Sans:wght@300&family=Roboto+Serif:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+
+h1 {
+	margin: 5mm;
+	font-size: 2cm;
+	font-family: "EB Garamond", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+h2 {
+	color: #C2A85F;
+	font-size: 15mm;
+	font-family: 'Cormorant Garamond', sans-serif;
+}
+h3 {
+	font-size: 8mm;
+}
+p {
+	font-size: 5mm;
+	text-align: justify;
+}
+.h1-p {
+	text-align: center;
+	font-size: 10mm;
+	font-family: 'Roboto Serif', sans-serif;
+}
+li {
+	font-size: 5mm;
+}
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+main {
+	padding: 20px; 
+	overflow: auto;
+}
+footer {
+	padding: 10px;
+	color: black;
+	background-color: #F0DEBA;
+	font-weight: bold;
+	font-family: 'Roboto Serif', sans-serif;
+}
+a:hover {
+	color: #F0DEBA;
+}
+nav a {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+nav {
+	background-color: #C2A85F;
+	padding: 1px;
+	position: sticky;
+	top: 0;
+}
+* {
+	box-sizing: border-box;
+}
+@media screen and (max-width: 1000px) {
+	#content,
+	aside {
+		width: 100%;
+		padding: 0;
+	}
+}
+header {
+	display: inline;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 10px;
+}
+.jumbotron {
+	font-size: 20mm;
+	padding: 10px;
+	background-color: #F0DEBA;
+	text-align: center;
+	color: black;
+}
+#h1-logo {
+	text-align: center;
+	font-size: 15mm;
+	text-transform: capitalize;
+}
+#content {
+	float: left;
+	width: 75%;
+}
+th {
+	font-size: 8mm;
+	font-weight: 100;
+	text-align: right;
+	width: 40%;
+}
+td {
+	font-size: 5mm;
+	font-weight: 50;
+	text-align: left;
+	width: 50%;
+}
+.th {
+	font-weight: bold;
+	font-size: 4mm;
+	text-align: left;
+}
+.td {
+	font-size: 3mm;
+	text-align: left;
+}
+aside {
+	float: right;
+	width: 25%;
+	padding-left: 20px;
+}
+.aside-table {
+	margin: 1mm;
+	border-collapse: collapse;
+} 
+.aside-h2 {
+	color: black; 
+	font-size: 5mm; 
+	text-align: center;
+}
+.email {
+	color: #C2A85F; 
+	font-size: 8mm; 
+	text-decoration: underline;
+}
